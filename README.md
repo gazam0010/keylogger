@@ -1,12 +1,12 @@
-**Disclaimer
+**Disclaimer:
 This project is purely educational and meant for learning purposes only. It should be used responsibly and legally, respecting privacy and consent laws in your jurisdiction. The author do not condone or encourage any unauthorized use or distribution of this software.**
 
 
 **Keylogger and Anti-Keylogger Project**
--_This project consists of a basic keylogger and an anti-keylogger implemented in C++ for educational purposes._
+_This project consists of a basic keylogger and an anti-keylogger implemented in C++ for educational purposes._
 
 **1. Keylogger**
--It does low-level capturing of keystrokes using Windows hooks. This keylogger logs keystrokes into a file called data.txt and enables itself to run at system boot by adding that to the registry.
+It does low-level capturing of keystrokes using Windows hooks. This keylogger logs keystrokes into a file called data.txt and enables itself to run at system boot by adding that to the registry.
 
 **Features:**
 -Captures keystrokes using a low-level keyboard hook.
@@ -18,7 +18,7 @@ This project is purely educational and meant for learning purposes only. It shou
 -Keystrokes will be logged to data.txt in the same directory.
 
 **2. Anti-Keylogger**
--The anti-keylogger component is designed to detect and mitigate the presence of the keylogger described above. It scans for suspicious files, registry entries, and terminates the keylogger process if detected.
+The anti-keylogger component is designed to detect and mitigate the presence of the keylogger described above. It scans for suspicious files, registry entries, and terminates the keylogger process if detected.
 
 **Features:**
 -Detects keyloggers by scanning running processes and registry entries.
