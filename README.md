@@ -1,3 +1,7 @@
+**Disclaimer
+This project is purely educational and meant for learning purposes only. It should be used responsibly and legally, respecting privacy and consent laws in your jurisdiction. The author do not condone or encourage any unauthorized use or distribution of this software.**
+
+
 **Keylogger and Anti-Keylogger Project**
 -_This project consists of a basic keylogger and an anti-keylogger implemented in C++ for educational purposes._
 
@@ -8,6 +12,7 @@
 -Captures keystrokes using a low-level keyboard hook.
 -Logs keystrokes to data.txt in the application directory.
 -Runs in stealth mode to hide its presence.
+
 **Usage:**
 -Run the executable (keylogger.exe).
 -Keystrokes will be logged to data.txt in the same directory.
@@ -19,13 +24,13 @@
 -Detects keyloggers by scanning running processes and registry entries.
 -Terminates the keylogger process if detected.
 -Deletes suspicious files and removes registry entries associated with the keylogger.
+
 **Usage:**
 - Run the executable (anti-keylogger.exe).
 - It will perform checks to detect the keylogger.
 - If a keylogger is detected, it will terminate its process and delete associated files and registry entries.
 
-**Disclaimer
-This project is purely educational and meant for learning purposes only. It should be used responsibly and legally, respecting privacy and consent laws in your jurisdiction. The author do not condone or encourage any unauthorized use or distribution of this software.**
+
 
 **Instructions**
 Building from Source:
