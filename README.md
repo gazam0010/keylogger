@@ -36,8 +36,8 @@ The anti-keylogger component is designed to detect and mitigate the presence of 
 Building from Source:
 
 - Clone the repository: git clone https://github.com/gazam0010/keylogger.git
-- Open the project in Visual Studio 2022 (preferrable) or your preferred IDE.
-- Build the keylogger and anti-keylogger projects as Windows Desktop Application (.exe) (in Visual Studio 2022).
+- Open the project in Visual Studio 2022 as Windows Desktop Application (.exe) (preferrable) or your preferred IDE.
+- Build the keylogger and anti-keylogger projects.
 - Running the Applications:
 
 Ensure you have administrative privileges to run both applications effectively.
